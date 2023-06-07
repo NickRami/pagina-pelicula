@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+    font-family: sans-serif;
+}
+
+body { 
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+.layout { 
+    width: 1300px;
+    height: 100px;
+   
+    margin: 20px auto;
+    
+}
+
+
+.container-listflex { 
+
+    height: 80px;
+    width: 100%;
+
+
+}
+
+.listas ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #f5f2f2;
+    color: white;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+}
+
+.listas .gafas { 
+    width: 100px;
+}
+.listas ul li { 
+    background-color: rgb(161, 33, 33);
+    padding: 10px;
+    margin-right: 18px;
+    border-radius: 3px;
+    /* font-weight: 600; */
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Contenido de cards */
+
+
+
+.contenido-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    background-color: rgb(206, 202, 202);
+    height: 1000px;
+    width: 100%;
+    
+   
+}
+.content-lateral img{ 
+    /* border-radius: 3px; */
+    
+    width: 240px;
+    height: 380px;
+    /* margin-top: 20px; */
+    
+    
+   
+}
+
+.content-lateral{ 
+    margin-top: 10px;
+    transition: all 0.25s;
+    box-shadow: 0px 2px 2px black;
+}
+
+
+.content-lateral:hover { 
+    transform: translateY(-15px);
+    box-shadow: 0px 4px 2px  rgb(0, 0, 0);
+}
+
+
+.body-card { 
+    background-color: rgb(109, 25, 25);
+    height: 50px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
